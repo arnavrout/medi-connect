@@ -1,0 +1,63 @@
+.hero {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 80vh; 
+  background: var(--background); 
+  text-align: center;
+}
+
+.hero-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+}
+
+.carousel-container {
+  display: flex;
+  overflow-x: auto;
+  scroll-snap-type: x mandatory;
+  scroll-behavior: smooth;
+  width: 500px; 
+  border-radius: 20px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+  scrollbar-width: none;
+}
+.carousel-container::-webkit-scrollbar {
+  display: none; 
+}
+
+.carousel-card {
+  flex: 0 0 100%; 
+  scroll-snap-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 20px;
+  padding: 10px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.carousel-card:active, .carousel-card:focus, .carousel-card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 8px 24px rgba(0,0,0,0.3); 
+}
+
+.hero-image {
+  width: 100%;
+  height: auto;
+  border-radius: 20px;
+}
+
+.hero-title {
+  font-size: 2.5rem; 
+  font-weight: bold;
+  color: var(--primary); 
+}
+
+.hero-text {
+  font-size: 1.2rem;
+  color: var(--another);
+  max-width: 500px;
+}

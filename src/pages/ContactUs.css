@@ -1,0 +1,47 @@
+.contact-us {
+  padding: 50px 20px;
+  text-align: center;
+  background: var(--background);
+}
+
+.contact-us h2 {
+  font-size: 2rem;
+  margin-bottom: 30px;
+  color: #333;
+}
+
+.wrap-contact-form {
+   width: 65%;
+   margin: auto;
+   padding: 40px;
+   background: var(--secondary);
+   border: 1px solid var(--);
+}
+
+.contact-form {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.contact-form select,
+.contact-form button {
+  padding: 12px 35px;
+  font-size: 1rem;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  outline: none;
+  cursor: pointer;
+}
+
+.contact-form button {
+  background: #007bff;
+  color: white;
+  border: none;
+  transition: 0.3s;
+}
+
+.contact-form button:hover {
+  background: #0056b3;
+}

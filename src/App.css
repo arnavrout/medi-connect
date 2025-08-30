@@ -1,0 +1,18 @@
+/* ✅ Global brand colors */
+:root {
+  --primary: #4335A7;    /* Deep Blue */
+  --secondary: #80C4E9;  /* Light Blue */
+  --background: #FFF6E9; /* Soft Cream */
+  --accent: #FF7F3E;     /* Bright Orange */
+  --another: #333333;    /*      Grey     */ 
+}
+
+#root {
+  margin: 0 auto;
+  text-align: center;
+}
+
+/* Example styling for cards, buttons, etc. */
+.card {
+  padding: 2em;
+}
