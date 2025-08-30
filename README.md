@@ -1,12 +1,30 @@
-# React + Vite
+# 🏥 Medi Connect
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Medi Connect is a modern healthcare platform designed to bridge the gap between patients and doctors, enabling seamless **online and offline appointment booking**. Built with **React** and powered by **Vite**, it offers a fast, responsive, and user-friendly interface to simplify healthcare access.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Tech Stack
 
-## Expanding the ESLint configuration
+- **Frontend:** [React](https://reactjs.org/) (Component-based architecture)
+- **Build Tool:** [Vite](https://vitejs.dev/) (Fast bundler & development server)
+- **Styling:** Custom CSS
+- **Language:** JavaScript (ES6+)
+- **Package Manager:** npm
+- **Version Control:** Git & GitHub
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## ✨ Features
+
+- 🔹 Easy appointment booking for **online & offline consultations**
+- 🔹 Simple, clean **patient-doctor interface**
+- 🔹 **Responsive design** for mobile and desktop
+- 🔹 Fast performance with **Vite**
+- 🔹 Patient details form with validation
+- 🔹 Google Maps integration for location-based services
+
+---
+
+## 📂 Folder Structure
+
